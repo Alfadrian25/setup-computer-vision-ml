@@ -50,7 +50,7 @@ Perintah ini digunakan untuk melihat informasi konfigurasi dan environment yang 
 ## 3️⃣ Membuat Environment Baru
 
 ```bash
-conda create --name TugasML python=3.8
+conda create --name TugasM python=3.8
 ```
 
 Environment ini dibuat untuk keperluan praktik Machine Learning.
@@ -63,7 +63,7 @@ Environment ini dibuat untuk keperluan praktik Machine Learning.
 conda env list
 ```
 
-Digunakan untuk memastikan environment `TugasML` berhasil dibuat.
+Digunakan untuk memastikan environment `TugasM` berhasil dibuat.
 
 ---
 
@@ -86,7 +86,7 @@ conda activate TugasM
 Jika berhasil, maka akan muncul:
 
 ```
-(TugasML)
+(TugasM)
 ```
 
 ---
@@ -142,7 +142,7 @@ Perintah ini digunakan untuk menampilkan daftar package yang terinstall pada env
 
 ---
 
-## Analisis `conda activate TugasML`
+## Analisis `conda activate TugasM`
 
 Perintah ini digunakan untuk mengaktifkan environment yang telah dibuat. Setelah aktif, seluruh proses instalasi dan eksekusi program akan berjalan dalam environment tersebut.
 
