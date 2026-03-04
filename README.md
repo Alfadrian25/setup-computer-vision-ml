@@ -50,7 +50,7 @@ Perintah ini digunakan untuk melihat informasi konfigurasi dan environment yang 
 ## 3️⃣ Membuat Environment Baru
 
 ```bash
-conda create --name TugasML_Tasri python=3.9
+conda create --name TugasML python=3.8
 ```
 
 Environment ini dibuat untuk keperluan praktik Machine Learning.
@@ -63,7 +63,7 @@ Environment ini dibuat untuk keperluan praktik Machine Learning.
 conda env list
 ```
 
-Digunakan untuk memastikan environment `TugasML_Tasri` berhasil dibuat.
+Digunakan untuk memastikan environment `TugasML` berhasil dibuat.
 
 ---
 
@@ -80,13 +80,13 @@ Perintah ini digunakan untuk melihat package yang terinstall pada environment ak
 ## 6️⃣ Mengaktifkan Environment
 
 ```bash
-conda activate TugasML_Tasri
+conda activate TugasM
 ```
 
 Jika berhasil, maka akan muncul:
 
 ```
-(TugasML_Tasri)
+(TugasML)
 ```
 
 ---
@@ -124,15 +124,15 @@ Perintah ini menampilkan informasi konfigurasi Conda, seperti lokasi instalasi, 
 
 ---
 
-## Analisis `conda create --name TugasML_Tasri python=3.9`
+## Analisis `conda create --name TugasM python=3.8`
 
-Perintah ini digunakan untuk membuat virtual environment baru dengan Python versi 3.9. Virtual environment berfungsi untuk memisahkan dependency project agar tidak terjadi konflik dengan environment lain.
+Perintah ini digunakan untuk membuat virtual environment baru dengan Python versi 3.8. Virtual environment berfungsi untuk memisahkan dependency project agar tidak terjadi konflik dengan environment lain.
 
 ---
 
 ## Analisis `conda env list`
 
-Perintah ini digunakan untuk melihat daftar environment yang tersedia pada sistem. Jika `TugasML_Tasri` muncul, maka environment berhasil dibuat.
+Perintah ini digunakan untuk melihat daftar environment yang tersedia pada sistem. Jika `TugasM` muncul, maka environment berhasil dibuat.
 
 ---
 
@@ -142,7 +142,7 @@ Perintah ini digunakan untuk menampilkan daftar package yang terinstall pada env
 
 ---
 
-## Analisis `conda activate TugasML_Tasri`
+## Analisis `conda activate TugasML`
 
 Perintah ini digunakan untuk mengaktifkan environment yang telah dibuat. Setelah aktif, seluruh proses instalasi dan eksekusi program akan berjalan dalam environment tersebut.
 
@@ -177,7 +177,7 @@ setup-computer-vision/
 
 # 🎯 Kesimpulan
 
-Berdasarkan tahap-tahap yang telah dilakukan, environment `TugasML_Tasri` berhasil dibuat dan OpenCV dapat digunakan tanpa error.
+Berdasarkan tahap-tahap yang telah dilakukan, environment `TugasM` berhasil dibuat dan OpenCV dapat digunakan tanpa error.
 
 Setup ini menjadi dasar untuk pengembangan program Computer Vision selanjutnya.
 
